@@ -3,4 +3,7 @@ export interface BlogType {
     excerpt: string;
     description: string;
     _id: string;
+    slug: string;
+    createdAt: string;
+    updatedAt: string;
 }
